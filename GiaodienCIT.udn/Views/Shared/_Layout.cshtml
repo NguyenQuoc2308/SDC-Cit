@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+   
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/css/mystyle.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row" id="logo">
+            <div class="col-md-7" id="logo-left">
+                <a href="#">
+                    <img src="http://cit.udn.vn/images/banner.png" />
+                </a>
+            </div>
+            <div class="col-md-5">
+                <div style="text-align:right; ">
+                    <div id="logo-right">
+                        <a href="http://tuyensinh.cit.udn.vn/">Tuyển sinh</a>&nbsp;&nbsp;
+                        <a href="http://elib.cit.udn.vn">Thư viện      </a>&nbsp;&nbsp;
+                        <a href="http://cit.udn.vn/hinh-anh/">Hình ảnh      </a>&nbsp;&nbsp;
+                        <a href="http://cit.udn.vn/tai-nguyen">Biểu mẫu     </a>&nbsp;&nbsp;
+                        <a href="https://mail.google.com/a/cit.udn.vn/">Webmail     </a>&nbsp;&nbsp;
+                        <a href="http://lichtuan.cit.udn.vn/">Lịch tuần</a>
+                        <a href="http://cit.udn.vn/en/" title="English"><img style="margin-top:-2px" src="http://cit.udn.vn/images/english.png" alt=""></a>
+                    </div>
+                    <div style="margin-top:8px; clear:both">
+                        <!--<img src="http://cit.udn.vn/images/cit-10-nam.png" />-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>               
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            GIỚI THIỆU <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Giới thiệu chung</a></li>
+                            <li><a href="#">Tầm nhìn sứ mệnh</a></li>
+                            <li><a href="#">Cơ cấu tổ chức</a></li>
+                            <li><a href="#">Chuẩn đầu ra</a></li>
+                            <li><a href="#">Công báo Ba công khai</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">TIN TỨC</a></li>
+                    <li><a href="#">TUYỂN SINH</a></li>
+                    <li><a href="#">ĐÀO TẠO</a></li>
+                    <li><a href="#">KHOA HỌC CÔNG NGHỆ</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            CÁC ĐƠN VỊ <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right" style="margin-right:-80px;padding-top:10px;">
+                    <li>
+                        <form action="/action_page.php">
+                            <div class="form-group">
+                                <input type="text" placeholder="Tìm kiếm" class="form-control" style="border-radius:50px;width:60%; height:80%;" >     
+                            </div>                            
+                        </form>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div>
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
