@@ -3,3 +3,10 @@
 ################################################################################
 
 /.vs/cloneCit/v15
+/.vs/GiaodienCIT.udn/v15/Server/sqlite3
+/packages
+/GiaodienCIT.udn/bin
+/.vs/GiaodienCIT.udn/v15
+/.vs/config
+/.vs/VSWorkspaceState.json
+/GiaodienCIT.udn/obj/Debug
