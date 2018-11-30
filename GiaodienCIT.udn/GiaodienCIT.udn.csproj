@@ -160,9 +160,15 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\CitImage\20-11-2018.jpg" />
     <Content Include="Content\CitImage\a.jpg" />
+    <Content Include="Content\CitImage\b.jpg" />
+    <Content Include="Content\CitImage\c.jpg" />
     <Content Include="Content\CitImage\can-bo.jpg" />
     <Content Include="Content\CitImage\cita2017.jpg" />
+    <Content Include="Content\CitImage\d.jpg" />
+    <Content Include="Content\CitImage\e.jpg" />
     <Content Include="Content\CitImage\etc-2017.jpg" />
+    <Content Include="Content\CitImage\f.jpg" />
+    <Content Include="Content\CitImage\logo-footer2.png" />
     <Content Include="Content\CitImage\newcastle.jpg" />
     <Content Include="Content\css\mystyle.css" />
     <Content Include="favicon.ico" />
