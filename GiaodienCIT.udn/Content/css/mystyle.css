@@ -143,6 +143,12 @@ blockquote {
 .panel-heading a {
     color: #de4f01;
 }
-#tintuc, #tinhoptac {
+#tintuc, #tinhoptac,#videoclip,#fanpage {
     border-left: 5px solid #e00018;
+}
+footer {
+    background-color: #de4f01;
+    color:white;
+    font-weight:bold;
+    
 }
