@@ -155,4 +155,7 @@ footer {
     footer{
         font-size:12px;
     }
+    footer #logo-footer{
+        display:none;
+    }
 }
