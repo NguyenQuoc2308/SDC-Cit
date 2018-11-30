@@ -143,19 +143,25 @@ blockquote {
 .panel-heading a {
     color: #de4f01;
 }
-#tintuc, #tinhoptac,#videoclip,#fanpage {
+#tintuc, #tinhoptac,#videoclip-title,#fanpage {
     border-left: 5px solid #e00018;
+    font-weight:bold;
 }
 footer {
     background-color: #de4f01;
     color:white;
     
 }
-@media (max-width:767px){
-    footer{
-        font-size:12px;
+@media (max-width:767px) {
+    footer {
+        font-size: 12px;
     }
-    footer #logo-footer{
-        display:none;
+
+        footer #logo-footer {
+            display: none;
+        }
+
+    #video-school, #videoclip {
+        display: none;
     }
 }
