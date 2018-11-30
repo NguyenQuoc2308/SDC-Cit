@@ -151,3 +151,8 @@ footer {
     color:white;
     
 }
+@media (max-width:767px){
+    footer{
+        font-size:12px;
+    }
+}
